@@ -15,7 +15,7 @@ services:
       - LC_TIME="pl_PL"
     command: python3 ./manage.py runserver 0.0.0.0:8002
     ports: 
-      - 8000:8000
+      - 8002:8002
     networks:
       - test_app
       
@@ -28,7 +28,7 @@ services:
     environment:
       - LC_TIME="pl_PL"
     ports:
-      - 8082:8082
+      - 8082:8080
     depends_on:
       - backend-test
     networks:
