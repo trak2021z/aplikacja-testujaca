@@ -1,0 +1,41 @@
+version: '3.4'
+services:
+
+
+  backend-test:
+    build: 
+      context: ./backend/
+      network: host
+    container_name: backend-container
+    restart: unless-stopped
+    volumes:
+      - ./backend/src/:/app/
+    environment:
+      - DJANGO_SUPERUSER_PASSWORD=admin 
+      - LC_TIME="pl_PL"
+    command: python3 ./manage.py runserver 0.0.0.0:8002
+    ports: 
+      - 8000:8000
+    networks:
+      - test_app
+      
+  frontend-test:
+    build: 
+      context: ./frontend/
+      network: host
+    container_name: frontend-container
+    restart: unless-stopped
+    environment:
+      - LC_TIME="pl_PL"
+    ports:
+      - 8082:8082
+    depends_on:
+      - backend-test
+    networks:
+      - test_app
+
+
+
+networks:
+  test_app:
+    driver: bridge

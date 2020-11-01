@@ -1,0 +1,11 @@
+[submodule "frontend"]
+	path = frontend
+	branch = main
+	update = merge
+	url = https://github.com/aplikacje-internetowe-l2/frontend-aplikacji-testujacej.git
+
+[submodule "backend"]
+	path = backend
+	branch = main
+	update = merge
+	url = https://github.com/aplikacje-internetowe-l2/backend-aplikacji-testujacej
