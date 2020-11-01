@@ -1,8 +1,5 @@
 # aplikacja-testujaca
 
-# aplikacja-glowna
-
-
 ### Pobranie całej aplikacji:
 ``` git clone --recursive https://github.com/aplikacje-internetowe-l2/aplikacja-testujaca.git ```
 
