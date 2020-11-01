@@ -6,7 +6,7 @@ services:
     build: 
       context: ./backend/
       network: host
-    container_name: backend-container
+    container_name: backend-testapp
     restart: unless-stopped
     volumes:
       - ./backend/src/:/app/
@@ -23,7 +23,7 @@ services:
     build: 
       context: ./frontend/
       network: host
-    container_name: frontend-container
+    container_name: frontend-testapp
     restart: unless-stopped
     environment:
       - LC_TIME="pl_PL"
