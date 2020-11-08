@@ -51,8 +51,10 @@ create_lock "${cmd_locking}"
 git pull origin main
 cd backend
 git pull origin main
+git checkout main
 cd ../frontend
 git pull origin main
+git checkout main
 cd ..
 /usr/local/bin/docker-compose up -d --build
 
