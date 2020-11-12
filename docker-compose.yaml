@@ -1,11 +1,8 @@
 version: '3.4'
 services:
 
-
   backend-test:
-    build: 
-      context: ./backend/
-      network: host
+    image: misieq/weii_ai_aplikacja_glowna_backend
     container_name: backend-testapp
     restart: unless-stopped
     volumes:
@@ -16,13 +13,9 @@ services:
     command: python3 ./manage.py runserver 0.0.0.0:8002
     ports: 
       - 8002:8002
-    networks:
-      - test_app
-      
+
   frontend-test:
-    build: 
-      context: ./frontend/
-      network: host
+    image: misieq/weii_ai_aplikacja_glowna_backend
     container_name: frontend-testapp
     restart: unless-stopped
     environment:
@@ -31,11 +24,3 @@ services:
       - 8082:8080
     depends_on:
       - backend-test
-    networks:
-      - test_app
-
-
-
-networks:
-  test_app:
-    driver: bridge
