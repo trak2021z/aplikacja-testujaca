@@ -2,7 +2,7 @@ version: '3.4'
 services:
 
   backend-test:
-    image: misieq/weii_ai_aplikacja_glowna_backend
+    image: misieq/weii_ai_aplikacja_testujaca_backend
     container_name: backend-testapp
     restart: unless-stopped
     volumes:
@@ -15,7 +15,7 @@ services:
       - 8002:8002
 
   frontend-test:
-    image: misieq/weii_ai_aplikacja_glowna_backend
+    image: misieq/weii_ai_aplikacja_testujaca_frontend
     container_name: frontend-testapp
     restart: unless-stopped
     environment:
