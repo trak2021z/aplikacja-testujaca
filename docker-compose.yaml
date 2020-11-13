@@ -3,20 +3,23 @@ services:
 
   backend-test:
     image: misieq/weii_ai_aplikacja_testujaca_backend
-    container_name: backend-testapp
     restart: unless-stopped
     volumes:
       - ./backend/src/:/app/
     environment:
-      - DJANGO_SUPERUSER_PASSWORD=admin 
+      - DJANGO_SUPERUSER_PASSWORD=admin
+      - BACKEND_URL="http://127.0.0.1:8002"
+      - BACKEND_USER="admin"
+      - BACKEND_PASSWORD="admin" 
       - LC_TIME="pl_PL"
-    command: python3 ./manage.py runserver 0.0.0.0:8002
+    command: sh -c 'python3 ./manage.py seed_test &&  python3 ./manage.py runserver 0.0.0.0:8002'
     ports: 
       - 8002:8002
+    depends_on:
+      - rabbitmq
 
   frontend-test:
     image: misieq/weii_ai_aplikacja_testujaca_frontend
-    container_name: frontend-testapp
     restart: unless-stopped
     environment:
       - LC_TIME="pl_PL"
@@ -24,3 +27,31 @@ services:
       - 8082:8080
     depends_on:
       - backend-test
+  
+  celery:
+    image: misieq/weii_ai_aplikacja_testujaca_backend
+    command: celery -A api_client  worker -l info
+    environment:
+      - CELERY_BROKER_URL=amqp://bitnami:bitnami@rabbitmq:5673
+      - BACKEND_URL="http://127.0.0.1:8002"
+      - BACKEND_USER="admin"
+      - BACKEND_PASSWORD="admin"
+      - LC_TIME="pl_PL"
+    volumes:
+      - ./backend/src/:/app/
+    depends_on:
+      - frontend-test
+
+  rabbitmq:
+    hostname: rabbit
+    image: bitnami/rabbitmq
+    environment:
+        - ABBITMQ_MANAGER_PORT_NUMBER=15673
+        - RABBITMQ_NODE_PORT_NUMBER=5673
+        - RABBITMQ_USERNAME=bitnami
+        - RABBITMQ_PASSWORD=bitnami
+        - CELERY_BROKER_URL=amqp://guest:guest@rabbitmq:5673
+        - LC_TIME="pl_PL"
+    ports:
+        - "15673:15673"  
+        - "5673:5673"
