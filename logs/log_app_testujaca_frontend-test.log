@@ -1,0 +1,200 @@
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 69% building 811/818 modules 7 active /app/node_modules/bootstrap-vue/esm/icons/index.js
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 69% building 812/818 modules 6 active /app/node_modules/bootstrap-vue/esm/icons/index.js
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 69% building 813/818 modules 5 active /app/node_modules/bootstrap-vue/esm/icons/index.js
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 69% building 814/818 modules 4 active /app/node_modules/bootstrap-vue/esm/icons/index.js
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 69% building 815/818 modules 3 active /app/node_modules/bootstrap-vue/esm/icons/index.js
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 69% building 816/818 modules 2 active /app/node_modules/bootstrap-vue/esm/icons/index.js
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 69% building 817/818 modules 1 active /app/node_modules/bootstrap-vue/esm/icons/index.js
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 70% building 818/818 modules 0 active 
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 69% building 818/819 modules 1 active /app/node_modules/bootstrap-vue/esm/components/table/helpers/constants.js
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 69% building 818/820 modules 2 active /app/node_modules/bootstrap-vue/esm/components/table/helpers/stringify-object-values.js
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 69% building 819/820 modules 1 active /app/node_modules/bootstrap-vue/esm/components/table/helpers/stringify-object-values.js
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 70% building 820/820 modules 0 active 
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 70% building 820/820 modules 0 active 
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 70% finish module graph
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 70% finish module graph FlagDependencyExportsPlugin
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 70% sealing
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 70% sealing WarnCaseSensitiveModulesPlugin
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 72% basic dependencies optimization
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 72% dependencies optimization
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 73% advanced dependencies optimization
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 73% after dependencies optimization
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 71% chunk graph
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 71% after chunk graph
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 71% after chunk graph WebAssemblyModulesPlugin
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 74% optimizing
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 74% basic module optimization
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 75% module optimization
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 75% advanced module optimization
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 76% after module optimization
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 76% basic chunk optimization
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 76% basic chunk optimization EnsureChunkConditionsPlugin
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 76% basic chunk optimization RemoveEmptyChunksPlugin
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 76% basic chunk optimization MergeDuplicateChunksPlugin
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 77% chunk optimization
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 77% advanced chunk optimization
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 77% advanced chunk optimization SplitChunksPlugin
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 77% advanced chunk optimization RemoveEmptyChunksPlugin
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 77% after chunk optimization
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 78% module and chunk tree optimization
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 78% after module and chunk tree optimization
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 79% basic chunk modules optimization
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 80% chunk modules optimization
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 80% advanced chunk modules optimization
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 81% after chunk modules optimization
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 81% module reviving
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 81% module reviving RecordIdsPlugin
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 82% module order optimization
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 82% advanced module order optimization
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 83% before module ids
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 83% before module ids NamedModulesPlugin
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 83% module ids
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 84% module id optimization
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 84% module id optimization
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 85% chunk reviving
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 85% chunk reviving RecordIdsPlugin
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 85% chunk order optimization
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 85% chunk order optimization OccurrenceOrderChunkIdsPlugin
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 86% before chunk ids
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 86% before chunk ids NamedChunksPlugin
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 86% chunk id optimization
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 87% after chunk id optimization
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 87% record modules
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 87% record modules RecordIdsPlugin
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 87% record chunks
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 87% record chunks RecordIdsPlugin
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 88% hashing
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 88% after hashing
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 88% after hashing HotModuleReplacementPlugin
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 89% record hash
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 89% module assets processing
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 90% chunk assets processing
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 90% additional chunk assets processing
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 90% additional chunk assets processing HotModuleReplacementPlugin
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 91% recording
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 91% recording HotModuleReplacementPlugin
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 92% additional asset processing
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 92% chunk asset optimization
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 93% after chunk asset optimization
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 93% asset optimization
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 94% after asset optimization
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 94% after seal
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 95% emitting
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 95% emitting HtmlWebpackPlugin
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 95% emitting CopyPlugin
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 98% after emitting
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 98% after emitting CopyPlugin
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    |  DONE  Compiled successfully in 13134ms11:13:31 PM
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | 
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | <s> [webpack.Progress] 100% 
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | 
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | 
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    |   App running at:
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    |   - Local:   http://localhost:8080/ 
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | 
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    |   It seems you are running Vue CLI inside a container.
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    |   Access the dev server via http://localhost:<your container's external mapped port>/
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | 
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    |   Note that the development build is not optimized.
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    |   To create a production build, run npm run build.
+app_testujaca_frontend-test.1.bm1bh1jnygyq@centos-l2.novalocal    | 
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 69% building 776/783 modules 7 active /app/node_modules/bootstrap-vue/esm/icons/index.js
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 69% building 777/783 modules 6 active /app/node_modules/bootstrap-vue/esm/icons/index.js
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 69% building 778/783 modules 5 active /app/node_modules/bootstrap-vue/esm/icons/index.js
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 69% building 779/783 modules 4 active /app/node_modules/bootstrap-vue/esm/icons/index.js
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 69% building 780/783 modules 3 active /app/node_modules/bootstrap-vue/esm/icons/index.js
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 69% building 781/783 modules 2 active /app/node_modules/bootstrap-vue/esm/icons/index.js
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 69% building 782/783 modules 1 active /app/node_modules/bootstrap-vue/esm/components/table/helpers/default-sort-compare.js
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 70% building 783/783 modules 0 active 
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 69% building 783/784 modules 1 active /app/node_modules/bootstrap-vue/esm/components/table/helpers/constants.js
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 69% building 783/785 modules 2 active /app/node_modules/bootstrap-vue/esm/components/table/helpers/stringify-object-values.js
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 69% building 784/785 modules 1 active /app/node_modules/bootstrap-vue/esm/components/table/helpers/stringify-object-values.js
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 70% building 785/785 modules 0 active 
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 70% building 785/785 modules 0 active 
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 70% finish module graph
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 70% finish module graph FlagDependencyExportsPlugin
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 70% sealing
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 70% sealing WarnCaseSensitiveModulesPlugin
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 72% basic dependencies optimization
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 72% dependencies optimization
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 73% advanced dependencies optimization
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 73% after dependencies optimization
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 71% chunk graph
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 71% after chunk graph
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 71% after chunk graph WebAssemblyModulesPlugin
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 74% optimizing
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 74% basic module optimization
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 75% module optimization
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 75% advanced module optimization
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 76% after module optimization
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 76% basic chunk optimization
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 76% basic chunk optimization EnsureChunkConditionsPlugin
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 76% basic chunk optimization RemoveEmptyChunksPlugin
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 76% basic chunk optimization MergeDuplicateChunksPlugin
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 77% chunk optimization
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 77% advanced chunk optimization
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 77% advanced chunk optimization SplitChunksPlugin
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 77% advanced chunk optimization RemoveEmptyChunksPlugin
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 77% after chunk optimization
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 78% module and chunk tree optimization
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 78% after module and chunk tree optimization
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 79% basic chunk modules optimization
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 80% chunk modules optimization
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 80% advanced chunk modules optimization
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 81% after chunk modules optimization
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 81% module reviving
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 81% module reviving RecordIdsPlugin
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 82% module order optimization
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 82% advanced module order optimization
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 83% before module ids
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 83% before module ids NamedModulesPlugin
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 83% module ids
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 84% module id optimization
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 84% module id optimization
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 85% chunk reviving
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 85% chunk reviving RecordIdsPlugin
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 85% chunk order optimization
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 85% chunk order optimization OccurrenceOrderChunkIdsPlugin
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 86% before chunk ids
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 86% before chunk ids NamedChunksPlugin
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 86% chunk id optimization
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 87% after chunk id optimization
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 87% record modules
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 87% record modules RecordIdsPlugin
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 87% record chunks
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 87% record chunks RecordIdsPlugin
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 88% hashing
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 88% after hashing
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 88% after hashing HotModuleReplacementPlugin
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 89% record hash
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 89% module assets processing
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 90% chunk assets processing
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 90% additional chunk assets processing
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 90% additional chunk assets processing HotModuleReplacementPlugin
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 91% recording
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 91% recording HotModuleReplacementPlugin
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 92% additional asset processing
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 92% chunk asset optimization
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 93% after chunk asset optimization
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 93% asset optimization
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 94% after asset optimization
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 94% after seal
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 95% emitting
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 95% emitting HtmlWebpackPlugin
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 95% emitting CopyPlugin
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 98% after emitting
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 98% after emitting CopyPlugin
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    |  DONE  Compiled successfully in 13508ms4:05:02 PM
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | 
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | <s> [webpack.Progress] 100% 
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | 
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | 
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    |   App running at:
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    |   - Local:   http://localhost:8080/ 
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | 
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    |   It seems you are running Vue CLI inside a container.
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    |   Access the dev server via http://localhost:<your container's external mapped port>/
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | 
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    |   Note that the development build is not optimized.
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    |   To create a production build, run npm run build.
+app_testujaca_frontend-test.1.hqpkgfkrw4n2@centos-l2.novalocal    | 

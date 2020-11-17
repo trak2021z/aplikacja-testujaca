@@ -1,0 +1,79 @@
+app_testujaca_celery.1.irgl5kggmiwg@centos-l2.novalocal    | /usr/lib/python3.8/site-packages/celery/platforms.py:797: RuntimeWarning: You're running the worker with superuser privileges: this is
+app_testujaca_celery.1.ltg7o0u9qxb2@centos-l2.novalocal    | /usr/lib/python3.8/site-packages/celery/platforms.py:797: RuntimeWarning: You're running the worker with superuser privileges: this is
+app_testujaca_celery.1.irgl5kggmiwg@centos-l2.novalocal    | absolutely not recommended!
+app_testujaca_celery.1.irgl5kggmiwg@centos-l2.novalocal    | 
+app_testujaca_celery.1.ltg7o0u9qxb2@centos-l2.novalocal    | absolutely not recommended!
+app_testujaca_celery.1.ltg7o0u9qxb2@centos-l2.novalocal    | 
+app_testujaca_celery.1.irgl5kggmiwg@centos-l2.novalocal    | Please specify a different user using the --uid option.
+app_testujaca_celery.1.irgl5kggmiwg@centos-l2.novalocal    | 
+app_testujaca_celery.1.ltg7o0u9qxb2@centos-l2.novalocal    | Please specify a different user using the --uid option.
+app_testujaca_celery.1.ltg7o0u9qxb2@centos-l2.novalocal    | 
+app_testujaca_celery.1.ltg7o0u9qxb2@centos-l2.novalocal    | User information: uid=0 euid=0 gid=0 egid=0
+app_testujaca_celery.1.irgl5kggmiwg@centos-l2.novalocal    | User information: uid=0 euid=0 gid=0 egid=0
+app_testujaca_celery.1.ltg7o0u9qxb2@centos-l2.novalocal    | 
+app_testujaca_celery.1.ltg7o0u9qxb2@centos-l2.novalocal    |   warnings.warn(RuntimeWarning(ROOT_DISCOURAGED.format(
+app_testujaca_celery.1.irgl5kggmiwg@centos-l2.novalocal    | 
+app_testujaca_celery.1.tsmtqmxvds2o@centos-l2.novalocal    | /usr/lib/python3.8/site-packages/celery/platforms.py:797: RuntimeWarning: You're running the worker with superuser privileges: this is
+app_testujaca_celery.1.irgl5kggmiwg@centos-l2.novalocal    |   warnings.warn(RuntimeWarning(ROOT_DISCOURAGED.format(
+app_testujaca_celery.1.ltg7o0u9qxb2@centos-l2.novalocal    | [2020-11-16 23:13:02,505: INFO/MainProcess] Connected to amqp://bitnami:**@rabbitmq:5673//
+app_testujaca_celery.1.ltg7o0u9qxb2@centos-l2.novalocal    | [2020-11-16 23:13:02,533: INFO/MainProcess] mingle: searching for neighbors
+app_testujaca_celery.1.ltg7o0u9qxb2@centos-l2.novalocal    | [2020-11-16 23:13:03,583: INFO/MainProcess] mingle: all alone
+app_testujaca_celery.1.irgl5kggmiwg@centos-l2.novalocal    | [2020-11-17 08:45:28,982: INFO/MainProcess] Connected to amqp://bitnami:**@rabbitmq:5673//
+app_testujaca_celery.1.tsmtqmxvds2o@centos-l2.novalocal    | absolutely not recommended!
+app_testujaca_celery.1.jd3flw2ykrte@centos-l2.novalocal    | /usr/lib/python3.8/site-packages/celery/platforms.py:797: RuntimeWarning: You're running the worker with superuser privileges: this is
+app_testujaca_celery.1.tsmtqmxvds2o@centos-l2.novalocal    | 
+app_testujaca_celery.1.irgl5kggmiwg@centos-l2.novalocal    | [2020-11-17 08:45:29,004: INFO/MainProcess] mingle: searching for neighbors
+app_testujaca_celery.1.irgl5kggmiwg@centos-l2.novalocal    | [2020-11-17 08:45:30,048: INFO/MainProcess] mingle: all alone
+app_testujaca_celery.1.tsmtqmxvds2o@centos-l2.novalocal    | Please specify a different user using the --uid option.
+app_testujaca_celery.1.ltg7o0u9qxb2@centos-l2.novalocal    | [2020-11-16 23:13:03,608: WARNING/MainProcess] /usr/lib/python3.8/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+app_testujaca_celery.1.ltg7o0u9qxb2@centos-l2.novalocal    |             leak, never use this setting in production environments!
+app_testujaca_celery.1.tsmtqmxvds2o@centos-l2.novalocal    | 
+app_testujaca_celery.1.jd3flw2ykrte@centos-l2.novalocal    | absolutely not recommended!
+app_testujaca_celery.1.ltg7o0u9qxb2@centos-l2.novalocal    |   warnings.warn('''Using settings.DEBUG leads to a memory
+app_testujaca_celery.1.tsmtqmxvds2o@centos-l2.novalocal    | User information: uid=0 euid=0 gid=0 egid=0
+app_testujaca_celery.1.jd3flw2ykrte@centos-l2.novalocal    | 
+app_testujaca_celery.1.ltg7o0u9qxb2@centos-l2.novalocal    | 
+app_testujaca_celery.1.irgl5kggmiwg@centos-l2.novalocal    | [2020-11-17 08:45:30,084: WARNING/MainProcess] /usr/lib/python3.8/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+app_testujaca_celery.1.tsmtqmxvds2o@centos-l2.novalocal    | 
+app_testujaca_celery.1.jd3flw2ykrte@centos-l2.novalocal    | Please specify a different user using the --uid option.
+app_testujaca_celery.1.tsmtqmxvds2o@centos-l2.novalocal    |   warnings.warn(RuntimeWarning(ROOT_DISCOURAGED.format(
+app_testujaca_celery.1.irgl5kggmiwg@centos-l2.novalocal    |             leak, never use this setting in production environments!
+app_testujaca_celery.1.jd3flw2ykrte@centos-l2.novalocal    | 
+app_testujaca_celery.1.irgl5kggmiwg@centos-l2.novalocal    |   warnings.warn('''Using settings.DEBUG leads to a memory
+app_testujaca_celery.1.jd3flw2ykrte@centos-l2.novalocal    | User information: uid=0 euid=0 gid=0 egid=0
+app_testujaca_celery.1.jd3flw2ykrte@centos-l2.novalocal    | 
+app_testujaca_celery.1.irgl5kggmiwg@centos-l2.novalocal    | 
+app_testujaca_celery.1.jd3flw2ykrte@centos-l2.novalocal    |   warnings.warn(RuntimeWarning(ROOT_DISCOURAGED.format(
+app_testujaca_celery.1.irgl5kggmiwg@centos-l2.novalocal    | [2020-11-17 08:45:30,085: INFO/MainProcess] celery@da8ff68ef5e2 ready.
+app_testujaca_celery.1.jd3flw2ykrte@centos-l2.novalocal    | [2020-11-13 16:04:48,643: ERROR/MainProcess] consumer: Cannot connect to amqp://bitnami:**@rabbitmq:5673//: failed to resolve broker hostname.
+app_testujaca_celery.1.tsmtqmxvds2o@centos-l2.novalocal    | [2020-11-16 10:04:33,306: INFO/MainProcess] Connected to amqp://bitnami:**@rabbitmq:5673//
+app_testujaca_celery.1.jd3flw2ykrte@centos-l2.novalocal    | Trying again in 2.00 seconds... (1/100)
+app_testujaca_celery.1.tsmtqmxvds2o@centos-l2.novalocal    | [2020-11-16 10:04:33,334: INFO/MainProcess] mingle: searching for neighbors
+app_testujaca_celery.1.jd3flw2ykrte@centos-l2.novalocal    | 
+app_testujaca_celery.1.tsmtqmxvds2o@centos-l2.novalocal    | [2020-11-16 10:04:34,387: INFO/MainProcess] mingle: all alone
+app_testujaca_celery.1.jd3flw2ykrte@centos-l2.novalocal    | [2020-11-13 16:04:50,664: ERROR/MainProcess] consumer: Cannot connect to amqp://bitnami:**@rabbitmq:5673//: [Errno 111] Connection refused.
+app_testujaca_celery.1.ltg7o0u9qxb2@centos-l2.novalocal    | [2020-11-16 23:13:03,608: INFO/MainProcess] celery@b1f62259205c ready.
+app_testujaca_celery.1.tsmtqmxvds2o@centos-l2.novalocal    | [2020-11-16 10:04:34,410: WARNING/MainProcess] /usr/lib/python3.8/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+app_testujaca_celery.1.jd3flw2ykrte@centos-l2.novalocal    | Trying again in 4.00 seconds... (2/100)
+app_testujaca_celery.1.jd3flw2ykrte@centos-l2.novalocal    | 
+app_testujaca_celery.1.tsmtqmxvds2o@centos-l2.novalocal    |             leak, never use this setting in production environments!
+app_testujaca_celery.1.jd3flw2ykrte@centos-l2.novalocal    | [2020-11-13 16:04:54,713: ERROR/MainProcess] consumer: Cannot connect to amqp://bitnami:**@rabbitmq:5673//: [Errno 111] Connection refused.
+app_testujaca_celery.1.tsmtqmxvds2o@centos-l2.novalocal    |   warnings.warn('''Using settings.DEBUG leads to a memory
+app_testujaca_celery.1.jd3flw2ykrte@centos-l2.novalocal    | Trying again in 6.00 seconds... (3/100)
+app_testujaca_celery.1.jd3flw2ykrte@centos-l2.novalocal    | 
+app_testujaca_celery.1.jd3flw2ykrte@centos-l2.novalocal    | [2020-11-13 16:05:00,734: ERROR/MainProcess] consumer: Cannot connect to amqp://bitnami:**@rabbitmq:5673//: [Errno 111] Connection refused.
+app_testujaca_celery.1.jd3flw2ykrte@centos-l2.novalocal    | Trying again in 8.00 seconds... (4/100)
+app_testujaca_celery.1.jd3flw2ykrte@centos-l2.novalocal    | 
+app_testujaca_celery.1.jd3flw2ykrte@centos-l2.novalocal    | [2020-11-13 16:05:08,764: ERROR/MainProcess] consumer: Cannot connect to amqp://bitnami:**@rabbitmq:5673//: [Errno 111] Connection refused.
+app_testujaca_celery.1.jd3flw2ykrte@centos-l2.novalocal    | Trying again in 10.00 seconds... (5/100)
+app_testujaca_celery.1.jd3flw2ykrte@centos-l2.novalocal    | 
+app_testujaca_celery.1.tsmtqmxvds2o@centos-l2.novalocal    | 
+app_testujaca_celery.1.tsmtqmxvds2o@centos-l2.novalocal    | [2020-11-16 10:04:34,411: INFO/MainProcess] celery@70b42941bf71 ready.
+app_testujaca_celery.1.jd3flw2ykrte@centos-l2.novalocal    | [2020-11-13 16:05:18,799: INFO/MainProcess] Connected to amqp://bitnami:**@rabbitmq:5673//
+app_testujaca_celery.1.jd3flw2ykrte@centos-l2.novalocal    | [2020-11-13 16:05:18,818: INFO/MainProcess] mingle: searching for neighbors
+app_testujaca_celery.1.jd3flw2ykrte@centos-l2.novalocal    | [2020-11-13 16:05:19,858: INFO/MainProcess] mingle: all alone
+app_testujaca_celery.1.jd3flw2ykrte@centos-l2.novalocal    | [2020-11-13 16:05:19,911: WARNING/MainProcess] /usr/lib/python3.8/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+app_testujaca_celery.1.jd3flw2ykrte@centos-l2.novalocal    |             leak, never use this setting in production environments!
+app_testujaca_celery.1.jd3flw2ykrte@centos-l2.novalocal    |   warnings.warn('''Using settings.DEBUG leads to a memory
+app_testujaca_celery.1.jd3flw2ykrte@centos-l2.novalocal    | 
+app_testujaca_celery.1.jd3flw2ykrte@centos-l2.novalocal    | [2020-11-13 16:05:19,911: INFO/MainProcess] celery@93657cbe23f8 ready.
