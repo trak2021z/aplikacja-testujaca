@@ -47,16 +47,14 @@ fi
 
 create_lock "${cmd_locking}"
 
-/usr/local/bin/docker-compose down -v --rmi all --remove-orphans
-git pull origin main
-cd backend
-git pull origin main
-git checkout main
-cd ../frontend
-git pull origin main
-git checkout main
-cd ..
-/usr/local/bin/docker-compose up -d --build
+echo "Updating main application"
+docker service update --image misieq/weii_ai_aplikacja_glowna_backend app_glowna_backend
+docker service update --image misieq/weii_ai_aplikacja_glowna_backend app_glowna_celery
+docker service update --image misieq/weii_ai_aplikacja_glowna_frontend app_glowna_frontend
 
+echo "Updating testing application"
+docker service update --image misieq/weii_ai_aplikacja_testujaca_backend app_testujaca_backend-test
+docker service update --image misieq/weii_ai_aplikacja_testujaca_backend app_testujaca_celery
+docker service update --image misieq/weii_ai_aplikacja_testujaca_frontend app_testujaca_frontend-test
 
 remove_lock "${cmd_unlocking}"
