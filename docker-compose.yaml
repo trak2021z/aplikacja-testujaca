@@ -1,6 +1,17 @@
 version: '3.4'
 services:
 
+  db-test:
+    image: postgres
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=postgres-test
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - 5433:5433
+
   backend-test:
     image: misieq/weii_ai_aplikacja_testujaca_backend
     restart: unless-stopped
@@ -12,7 +23,8 @@ services:
       - BACKEND_USER="admin"
       - BACKEND_PASSWORD="admin" 
       - LC_TIME="pl_PL"
-    command: sh -c 'python3 ./manage.py seed_test &&  python3 ./manage.py runserver 0.0.0.0:8002'
+      - USE_POSTGRES="true"
+    command: sh -c '(./wait-for db-test:5433 -- ./db-ops.sh ) &&  python3 ./manage.py runserver 0.0.0.0:8002'
     ports: 
       - 8002:8002
     depends_on:
@@ -37,6 +49,7 @@ services:
       - BACKEND_USER="admin"
       - BACKEND_PASSWORD="admin"
       - LC_TIME="pl_PL"
+      - USE_POSTGRES="true"
     volumes:
       - ./backend/src/:/app/
     depends_on:
@@ -55,3 +68,6 @@ services:
     ports:
         - "15673:15673"  
         - "5673:5673"
+
+volumes:
+  pgdata:
