@@ -60,7 +60,7 @@ services:
     hostname: rabbit
     image: bitnami/rabbitmq
     environment:
-        - ABBITMQ_MANAGER_PORT_NUMBER=15673
+        - RABBITMQ_MANAGER_PORT_NUMBER=15673
         - RABBITMQ_NODE_PORT_NUMBER=5673
         - RABBITMQ_USERNAME=bitnami
         - RABBITMQ_PASSWORD=bitnami
