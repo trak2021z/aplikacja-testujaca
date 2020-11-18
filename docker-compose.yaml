@@ -2,7 +2,9 @@ version: '3.4'
 services:
 
   backend-test:
-    image: misieq/weii_ai_aplikacja_testujaca_backend
+    build:
+      context: ./backend/	
+      network: host
     restart: unless-stopped
     volumes:
       - ./backend/src/:/app/
@@ -17,9 +19,13 @@ services:
       - 8002:8002
     depends_on:
       - rabbitmq
-
+    networks:	
+      - test_app
+      
   frontend-test:
-    image: misieq/weii_ai_aplikacja_testujaca_frontend
+    build:
+      context: ./frontend/	
+      network: host
     restart: unless-stopped
     environment:
       - LC_TIME="pl_PL"
@@ -27,9 +33,14 @@ services:
       - 8082:8080
     depends_on:
       - backend-test
-  
+    networks:	
+      - test_app
+      
+      
   celery:
-    image: misieq/weii_ai_aplikacja_testujaca_backend
+    build:
+      context: ./backend/	
+      network: host
     command: celery -A api_client  worker -l info
     environment:
       - CELERY_BROKER_URL=amqp://bitnami:bitnami@rabbitmq:5673
@@ -41,7 +52,10 @@ services:
       - ./backend/src/:/app/
     depends_on:
       - frontend-test
-
+    networks:	
+      - test_app
+      
+      
   rabbitmq:
     hostname: rabbit
     image: bitnami/rabbitmq
@@ -55,3 +69,9 @@ services:
     ports:
         - "15673:15673"  
         - "5673:5673"
+    networks:	
+      - test_app
+      
+networks:	
+  test_app:	
+    driver: bridge
