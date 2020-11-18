@@ -1,6 +1,17 @@
 version: '3.4'
 services:
 
+  db-test:
+    image: postgres
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=postgres-test
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - 5433:5433
+
   backend-test:
     image: misieq/weii_ai_aplikacja_testujaca_backend
     restart: unless-stopped
@@ -55,3 +66,6 @@ services:
     ports:
         - "15673:15673"  
         - "5673:5673"
+
+volumes:
+  pgdata:
