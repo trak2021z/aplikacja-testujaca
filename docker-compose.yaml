@@ -1,4 +1,4 @@
-version: '3.4'
+version: '3.8'
 services:
 
   db-test:
@@ -7,10 +7,13 @@ services:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
       - POSTGRES_DB=postgres-test
+    command: -p 5433
     volumes:
       - pgdata:/var/lib/postgresql/data
     ports:
       - 5433:5433
+    networks:
+      - over
 
   backend-test:
     image: misieq/weii_ai_aplikacja_testujaca_backend
@@ -19,17 +22,20 @@ services:
       - ./backend/src/:/app/
     environment:
       - DJANGO_SUPERUSER_PASSWORD=admin
-      - BACKEND_URL="http://127.0.0.1:8002"
-      - BACKEND_USER="admin"
+      - BACKEND_URL=http://backend:8000
+      - BACKEND_USER=admin
       - CELERY_BROKER_URL=amqp://guest:guest@rabbitmq:5673
-      - BACKEND_PASSWORD="admin" 
+      - BACKEND_PASSWORD=admin
       - LC_TIME="pl_PL"
-      - USE_POSTGRES="true"
+      - USE_POSTGRES=TRUE
     command: sh -c '(./wait-for db-test:5433 -- ./db-ops.sh ) &&  python3 ./manage.py runserver 0.0.0.0:8002'
     ports: 
       - 8002:8002
     depends_on:
       - rabbitmq
+    networks:
+      - over
+
 
   frontend-test:
     image: misieq/weii_ai_aplikacja_testujaca_frontend
@@ -40,35 +46,46 @@ services:
       - 8082:8080
     depends_on:
       - backend-test
-  
+    networks:
+      - over  
+
   celery:
     image: misieq/weii_ai_aplikacja_testujaca_backend
     command: celery -A api_client  worker -l info
     environment:
-      - CELERY_BROKER_URL=amqp://bitnami:bitnami@rabbitmq:5673
-      - BACKEND_URL="http://127.0.0.1:8002"
-      - BACKEND_USER="admin"
-      - BACKEND_PASSWORD="admin"
+      - CELERY_BROKER_URL=amqp://guest:guest@rabbitmq:5673
+      - BACKEND_URL=http://backend:8000      
+      - BACKEND_USER=admin
+      - BACKEND_PASSWORD=admin
       - LC_TIME="pl_PL"
-      - USE_POSTGRES="true"
+      - USE_POSTGRES=TRUE
     volumes:
       - ./backend/src/:/app/
     depends_on:
       - frontend-test
+    networks:
+      - over
+
 
   rabbitmq:
     hostname: rabbit
-    image: bitnami/rabbitmq
+    image: rabbitmq:3-management
     environment:
-        - RABBITMQ_MANAGER_PORT_NUMBER=15673
-        - RABBITMQ_NODE_PORT_NUMBER=5673
-        - RABBITMQ_USERNAME=bitnami
-        - RABBITMQ_PASSWORD=bitnami
+        - RABBITMQ_DEFAULT_USER=guest
         - CELERY_BROKER_URL=amqp://guest:guest@rabbitmq:5673
+        - RABBITMQ_DEFAULT_PASS=guest
         - LC_TIME="pl_PL"
+    volumes:
+      - ./rabbit/rabbitmq.conf:/etc/rabbitmq/rabbitmq.conf:ro
     ports:
-        - "15673:15673"  
+        - "15673:15672"  
         - "5673:5673"
+    networks:
+      - over
+
+networks:
+  over:
+    external: true
 
 volumes:
   pgdata:

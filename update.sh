@@ -47,14 +47,9 @@ fi
 
 create_lock "${cmd_locking}"
 
-echo "Updating main application"
-docker service update --image misieq/weii_ai_aplikacja_glowna_backend app_glowna_backend
-docker service update --image misieq/weii_ai_aplikacja_glowna_backend app_glowna_celery
-docker service update --image misieq/weii_ai_aplikacja_glowna_frontend app_glowna_frontend
-
 echo "Updating testing application"
-docker service update --image misieq/weii_ai_aplikacja_testujaca_backend app_testujaca_backend-test
-docker service update --image misieq/weii_ai_aplikacja_testujaca_backend app_testujaca_celery
-docker service update --image misieq/weii_ai_aplikacja_testujaca_frontend app_testujaca_frontend-test
+docker service update --image misieq/weii_ai_aplikacja_testujaca_backend app_test_backend-test
+docker service update --image misieq/weii_ai_aplikacja_testujaca_backend app_test_celery
+docker service update --image misieq/weii_ai_aplikacja_testujaca_frontend app_test_frontend-test
 
 remove_lock "${cmd_unlocking}"
