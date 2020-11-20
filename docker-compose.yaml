@@ -1,4 +1,4 @@
-version: '3.4'
+version: '3.5'
 services:
 
   backend-test:
@@ -20,7 +20,7 @@ services:
     depends_on:
       - rabbitmq
     networks:	
-      - test_app
+      - test_over
       
   frontend-test:
     build:
@@ -34,7 +34,7 @@ services:
     depends_on:
       - backend-test
     networks:	
-      - test_app
+      - test_over
       
       
   celery:
@@ -53,7 +53,7 @@ services:
     depends_on:
       - frontend-test
     networks:	
-      - test_app
+      - test_over
       
       
   rabbitmq:
@@ -70,8 +70,9 @@ services:
         - "15673:15673"  
         - "5673:5673"
     networks:	
-      - test_app
+      - test_over
       
 networks:	
-  test_app:	
-    driver: bridge
+  test_over:
+    external:
+      name: over
