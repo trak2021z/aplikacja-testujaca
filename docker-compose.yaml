@@ -16,7 +16,7 @@ services:
       - over
 
   backend-test:
-    image: misieq/weii_ai_aplikacja_testujaca_backend:latest
+    image: trak2021z/weii_ai_aplikacja_testujaca_backend:latest
     restart: unless-stopped
     volumes:
       - ./backend/src/:/app/
@@ -38,7 +38,7 @@ services:
 
 
   frontend-test:
-    image: misieq/weii_ai_aplikacja_testujaca_frontend:latest
+    image: trak2021z/weii_ai_aplikacja_testujaca_frontend:latest
     restart: unless-stopped
     environment:
       - LC_TIME="pl_PL"
@@ -50,7 +50,7 @@ services:
       - over  
 
   celery:
-    image: misieq/weii_ai_aplikacja_testujaca_backend:latest
+    image: trak2021z/weii_ai_aplikacja_testujaca_backend:latest
     command: celery -A api_client  worker -l info
     environment:
       - CELERY_BROKER_URL=amqp://guest:guest@rabbitmq:5673
